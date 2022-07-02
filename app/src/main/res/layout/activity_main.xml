@@ -25,9 +25,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
-            app:fab_title="Label on the Right"
             app:fab_icon="@drawable/call"
-            />
+            app:fab_title="Label on the Right" />
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
@@ -42,15 +41,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
-            app:fab_icon="@drawable/about"
-            app:fab_colorPressed="@color/design_default_color_primary_dark" />
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/about" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
-            app:fab_icon="@drawable/about"
-            app:fab_colorPressed="@color/design_default_color_primary_dark" />
+            app:fab_colorPressed="@color/design_default_color_primary_dark"
+            app:fab_icon="@drawable/about" />
 
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
@@ -61,7 +60,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        app:fab_addButtonPlusIconColor="@color/white"
         app:fab_addButtonSize="normal"
+        app:fab_addButtonStrokeVisible="true"
         app:fab_labelStyle="@style/LabelStyle"
         app:fab_labelsPosition="left">
 
@@ -70,7 +71,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
+            app:fab_colorPressed="#047709"
             app:fab_icon="@drawable/call"
+            app:fab_size="mini"
             app:fab_title="Call" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
@@ -79,34 +82,49 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
             app:fab_icon="@drawable/about"
-            app:fab_size="normal"
+            app:fab_size="mini"
             app:fab_title="About Us" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FFF"
+            app:fab_icon="@drawable/about"
+            app:fab_size="mini"
+            app:fab_title="Profile" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FFF"
+            app:fab_icon="@drawable/about"
+            app:fab_size="mini"
+            app:fab_title="Setting" />
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
     <com.getbase.floatingactionbutton.FloatingActionsMenu
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fab_addButtonSize="mini"
-        app:fab_expandDirection="right"
         android:layout_alignParentBottom="true"
-        >
+        app:fab_addButtonSize="mini"
+        app:fab_expandDirection="right">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
             app:fab_icon="@drawable/about"
-            app:fab_size="normal"
-            />
+            app:fab_size="normal" />
 
         <com.getbase.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="#FFF"
             app:fab_icon="@drawable/about"
-            app:fab_size="normal"
-            />
+            app:fab_size="normal" />
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 

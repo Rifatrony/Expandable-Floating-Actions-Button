@@ -1,6 +1,7 @@
 package com.example.expandablefloatingactionbutton;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.os.Bundle;
 import android.view.View;
@@ -19,9 +20,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         fab_Menu = findViewById(R.id.fab_Menu);
         fab_call = findViewById(R.id.fab_call);
         fab_about = findViewById(R.id.fab_about);
+
+        //fab_Menu.setBackgroundColor(getResources().getColor(R.color.purple_200));
+
 
         fab_call.setOnClickListener(new View.OnClickListener() {
             @Override
